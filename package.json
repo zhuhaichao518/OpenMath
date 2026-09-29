@@ -1,0 +1,14 @@
+{
+  "name": "openmath-proof-tools",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Reusable mathematical proof tools and evidence graphs for LLMs",
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "test": "node --test",
+    "demo": "node examples/demo.js"
+  },
+  "exports": "./src/index.js"
+}
